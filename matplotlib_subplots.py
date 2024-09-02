@@ -28,10 +28,10 @@ ax[1][0].axis("off")
 ax[1][1].axis("off")
 
 
-ax[0][0].imshow(imgRGB1)
-ax[0][1].imshow(imgRGB2)
-ax[1][0].imshow(imgRGB3)
-ax[1][1].imshow(imgRGB4)
+ax[0][0].imshow(imgRGB1, aspect="auto")
+ax[0][1].imshow(imgRGB2, aspect="auto")
+ax[1][0].imshow(imgRGB3, aspect="auto")
+ax[1][1].imshow(imgRGB4, aspect ="auto")
 
 
 fig.canvas.manager.set_window_title("sample windows")
