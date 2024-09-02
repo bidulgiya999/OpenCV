@@ -5,7 +5,8 @@ import cv2, sys
 
 fileName = 'vtest.avi'
 
-# 동영상 파일 열기
+
+# videocapture 클래스 객체 생성 + 생성자가 호출(파일 열기)
 cap = cv2.VideoCapture(fileName)
 
 # 동영상의 해상도 width, height 확인
