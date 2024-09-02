@@ -34,4 +34,3 @@ ax[1][0].imshow(imgRGB3)
 ax[1][1].imshow(imgRGB4)
 
 plt.show()
-print(1)
