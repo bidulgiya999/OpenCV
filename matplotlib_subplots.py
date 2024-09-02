@@ -33,4 +33,6 @@ ax[0][1].imshow(imgRGB2)
 ax[1][0].imshow(imgRGB3)
 ax[1][1].imshow(imgRGB4)
 
+
+fig.canvas.manager.set_window_title("sample windows")
 plt.show()
